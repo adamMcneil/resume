@@ -1,5 +1,5 @@
-o# My Resume
+# My Resume
 
 Feel free to use the LaTeX file as a template.
 
-[The PDF.](resume.pdf)
+[The PDF.](Adam-McNeil-Resume.pdf)
