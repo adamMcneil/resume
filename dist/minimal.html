@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adam McNeil — Resume (minimal)</title>
+<style>
+@page { size: Letter; margin: 0.4in; }
+:root { --ink:#111; --muted:#555; --rule:#cfcfcf; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink); font-size: 9pt; line-height: 1.06;
+}
+.resume { width: 7.7in; margin: 0 auto; }
+@media screen {
+  body { background:#eee; }
+  .resume { width:8.5in; padding:0.4in; margin:24px auto; background:#fff;
+            box-shadow:0 2px 12px rgba(0,0,0,.15); }
+}
+.head { margin-bottom: 6px; }
+h1 { font-size: 19pt; font-weight: 600; letter-spacing: 0.3px; }
+.contact { font-size: 8.5pt; color: var(--muted); margin-top: 2px; }
+.contact a { color: var(--muted); }
+h2 {
+  font-size: 8.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;
+  margin: 7px 0 3px; padding-bottom: 2px; border-bottom: 1px solid var(--rule);
+}
+h3 { font-size: 9.5pt; font-weight: 600; margin-top: 5px; }
+h3 + p { font-size: 8pt; color: var(--muted); margin: 0 0 2px; }
+p { margin: 1.5px 0; }
+ul { margin: 1px 0 2px; padding-left: 15px; }
+li { margin: 0.5px 0; }
+li::marker { color: #999; }
+em { font-style: italic; color: var(--muted); font-size: 8pt; }
+a { color: inherit; text-decoration: none; }
+</style>
+</head>
+<body>
+<main class="resume">
+<header class="head"><h1>Adam McNeil</h1><p class="contact">St. Louis, Missouri · <a href="https://github.com/adamMcneil">github.com/adamMcneil</a> · (636) 312-7281 · <a href="mailto:adamwmcneil@gmail.com">adamwmcneil@gmail.com</a></p></header>
+<h2>Profile</h2>
+<p>I graduated from the University of Illinois Urbana-Champaign with a Master&#39;s of Computer Science in 2025. I have experience as a backend developer with technologies such as Java, SQL, and Git, and as a full-stack developer using React and Svelte. I like using the best tools for the job — and learning new ones — and enjoy languages and technologies such as TypeScript, Rust, OCaml, Go, C#, Svelte, Tailwind, Neovim, Linux, and React.</p>
+<h2>Experience</h2>
+<h3>Conference Technologies Inc. — DevOps Engineer</h3>
+<p>St. Louis, Missouri · 2025–Present</p>
+<ul>
+<li>Developed React front ends integrated with a Dynamics 365 backend.</li>
+<li>Built a C# application to automate pulling data from public APIs into internal storage.</li>
+<li>Developed CI/CD pipelines using Azure Pipelines.</li>
+<li>Monitored application performance using Grafana dashboards.</li>
+</ul>
+<p><em>Technology: JavaScript, Git, React, Full-Stack, Azure Pipelines, CI/CD, Grafana</em></p>
+<h3>NISC — Software Developer Intern</h3>
+<p>Lake St. Louis, Missouri · 2023–2024</p>
+<ul>
+<li>Helped maintain a batch-processing workflow written in Java.</li>
+<li>Streamlined data retrieval from an Oracle database.</li>
+<li>Created a test environment for migrating to a PostgreSQL database.</li>
+<li>Wrote PowerShell scripts to automate code-base analysis and modification.</li>
+</ul>
+<p><em>Technology: Java, PowerShell, Git, PostgreSQL, Oracle, Docker, Gradle, Windows</em></p>
+<h3>Oasis Digital — Software Development Intern</h3>
+<p>Chesterfield, Missouri · 2022</p>
+<ul>
+<li>Designed and developed a 3D project-planning application using Unity.</li>
+<li>Used Firebase to manage and store persistent data.</li>
+<li>Competed in a company-wide game jam, building a game within a single day.</li>
+</ul>
+<p><em>Technology: C#, Unity, Git, Firebase</em></p>
+<h2>Projects</h2>
+<h3>Lichess Engine</h3>
+<p><a href="https://github.com/adamMcneil/chess-engine">github.com/adamMcneil/chess-engine</a> · 2021, 2025</p>
+<ul>
+<li>Developed a Lichess bot in Java.</li>
+<li>Used flame graphs and other performance metrics to find and optimize slow code.</li>
+<li>Built a unit and integration test suite.</li>
+<li>Implemented the minimax algorithm with alpha-beta pruning to select the best move.</li>
+</ul>
+<p><em>Technology: Java, IntelliJ, Gradle, Git</em></p>
+<h3>Fullstack Project</h3>
+<p><a href="https://github.com/adamMcneil/mcneil-web-games">github.com/adamMcneil/mcneil-web-games</a> · 2023–2024</p>
+<ul>
+<li>Developed a web API in Rust using the Rocket web framework.</li>
+<li>Built a static front end in Svelte and Tailwind.</li>
+<li>Deployed a CI/CD pipeline with Render and GitHub Pages to host the backend and frontend.</li>
+</ul>
+<p><em>Technology: Rust, Svelte, TypeScript, HTTP, CSS, Tailwind, Render, Git</em></p>
+<h3>Streaming Platform</h3>
+<p>Distributed Systems Course Project · 2024</p>
+<ul>
+<li>Developed a distributed group-membership service.</li>
+<li>Built a distributed file system on top of the membership service.</li>
+<li>Developed a distributed stream-processing framework similar to Spark Streaming.</li>
+<li>Implemented with gRPC and tested in a Docker virtual environment.</li>
+</ul>
+<p><em>Technology: Go, Protocol Buffers, gRPC, Docker, Spark Streaming</em></p>
+<h2>Education</h2>
+<h3>University of Illinois Urbana-Champaign — Master of Computer Science</h3>
+<p>Urbana-Champaign, Illinois · Aug 2024–May 2025 · GPA 3.80</p>
+<h3>University of Science and Technology — B.S. Computer Science, Minor in Mathematics</h3>
+<p>Rolla, Missouri · Aug 2021–May 2024 · GPA 3.94</p>
+</main>
+</body>
+</html>
