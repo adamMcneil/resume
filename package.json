@@ -1,0 +1,13 @@
+{
+  "name": "adam-mcneil-resume",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Adam McNeil's resume: one Markdown source, three CSS themes, one page each.",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "marked": "^14.1.2"
+  }
+}

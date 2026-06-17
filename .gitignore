@@ -1,0 +1,10 @@
+node_modules/
+*.aux
+*.log
+*.out
+*.toc
+
+# Verification / scratch artifacts
+.playwright-mcp/
+dist/*.pdf
+.measure-server.mjs
