@@ -1,18 +1,10 @@
-MAIN = resume
+.PHONY: build clean
 
-LATEX = pdflatex
+build: node_modules
+	node build.mjs
 
-INTERMEDIATE_FILES = *.aux *.log *.out *.toc
-
-all: $(MAIN).pdf
-	mv $(MAIN).pdf adam-mcneil-resume.pdf
-	rm -f $(MAIN).pdf $(INTERMEDIATE_FILES)
-	
-$(MAIN).pdf: $(MAIN).tex
-	$(LATEX) $(MAIN).tex
+node_modules: package.json
+	npm install
 
 clean:
-	rm -f $(MAIN).pdf $(INTERMEDIATE_FILES)
-
-# Phony targets
-.PHONY: all clean
+	rm -rf dist
