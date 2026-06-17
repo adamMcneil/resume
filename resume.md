@@ -4,7 +4,7 @@ St. Louis, Missouri · [github.com/adamMcneil](https://github.com/adamMcneil) ·
 
 ## Profile
 
-I graduated from the University of Illinois Urbana-Champaign with a Master's of Computer Science in 2025. I have experience as a backend developer with technologies such as Java, SQL, and Git, and as a full-stack developer using React and Svelte. I like using the best tools for the job — and learning new ones — and enjoy languages and technologies such as TypeScript, Rust, OCaml, Go, C#, Svelte, Tailwind, Neovim, Linux, and React.
+Software engineer with a Master of Computer Science from the University of Illinois Urbana-Champaign, a top-5 CS program. Backend and full-stack experience across Java, SQL, React, and Svelte, with a habit of reaching for the right tool for the job — and learning it fast. Comfortable in TypeScript, Rust, Go, C#, OCaml, Tailwind, Linux, and Neovim.
 
 ## Experience
 
@@ -67,5 +67,5 @@ Distributed Systems Course Project · 2024
 ### University of Illinois Urbana-Champaign — Master of Computer Science
 Urbana-Champaign, Illinois · Aug 2024–May 2025 · GPA 3.80
 
-### University of Science and Technology — B.S. Computer Science, Minor in Mathematics
+### Missouri University of Science and Technology — B.S. Computer Science, Minor in Mathematics
 Rolla, Missouri · Aug 2021–May 2024 · GPA 3.94
