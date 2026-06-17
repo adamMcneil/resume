@@ -15,14 +15,24 @@ Generates three standalone files in `dist/`:
 - `dist/modern.html` — accent color, contemporary
 - `dist/classic.html` — serif, traditional
 
-## Save as PDF
-1. Open a `dist/*.html` file in Chrome or Edge.
-2. Press **Ctrl+P**.
-3. Destination **Save as PDF**, Margins **Default**, Scale **100%**, and
-   uncheck **Headers and footers**.
-4. Save — each is exactly one page.
+## Build the PDFs (one command)
+Builds the HTML and prints all three one-page PDFs to `dist/` using headless
+Chrome or Edge (auto-detected — no LaTeX):
+```
+./build-pdf.sh                              # macOS / Linux / Git Bash
+pwsh -ExecutionPolicy Bypass -File build-pdf.ps1   # Windows PowerShell
+```
+Output: `dist/minimal.pdf`, `dist/modern.pdf`, `dist/classic.pdf`.
+
+## Save as PDF (manual alternative)
+1. Run `npm run build` (or `make`) to refresh `dist/*.html`.
+2. Open a `dist/*.html` file in Chrome or Edge and press **Ctrl+P**.
+3. Destination **Save as PDF**, Margins **Default**, Scale **100%**, uncheck
+   **Headers and footers**, then save — each is exactly one page.
 
 ## Add a style
 Add `styles/<name>.css` and append `'<name>'` to the `THEMES` array in `build.mjs`.
 
-The legacy LaTeX source (`resume.tex`) is kept for reference but is no longer part of the build.
+## Legacy files
+The old LaTeX resume (`resume.tex`), its PDF, and prior cover letters live in
+`old/` for reference; they are no longer part of the build.
