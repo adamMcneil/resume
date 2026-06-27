@@ -4,15 +4,17 @@ St. Louis, Missouri · [github.com/adamMcneil](https://github.com/adamMcneil) ·
 
 ## Profile
 
-Software engineer with a Master of Computer Science from the University of Illinois Urbana-Champaign, a top-5 CS program. Backend and full-stack experience across Java, SQL, React, and Svelte, with a habit of reaching for the right tool for the job — and learning it fast. Comfortable in TypeScript, Rust, Go, C#, OCaml, Tailwind, Linux, and Neovim.
+Software engineer with a Master of Computer Science from the University of Illinois Urbana-Champaign, a top-5 CS program.
+Backend and full-stack experience across Java, SQL, React, Node.js, C#, and Svelte, with a habit of reaching for the right tool for the job — and learning it fast.
+Comfortable in TypeScript, React, GitHub, Claude Code, Linux, WezTerm, and Neovim.
 
 ## Experience
 
 ### Conference Technologies Inc. — DevOps Engineer
 St. Louis, Missouri · 2025–Present
-- Built React front ends integrated with a Dynamics 365 backend.
-- Wrote a C# application that automatically pulled data from public APIs into internal storage.
-- Set up CI/CD pipelines in Azure Pipelines.
+- Built Microsoft React Web apps to integrate with Dynamics 365 environment.
+- Developed processes to do ETL to and from the Dynamics 365 environment.
+- Set up CI/CD pipelines in Azure Pipelines to deploy web apps and APIs with Docker and Nginx.
 - Tracked application performance with Grafana dashboards.
 
 *Technology: JavaScript, Git, React, Full-Stack, Azure Pipelines, CI/CD, Grafana*
